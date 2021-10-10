@@ -91,6 +91,10 @@ document.addEventListener('DOMContentLoaded', () => {
         square4.classList.contains('player-one')
       ) {
         result.innerHTML = 'Player One Wins!';
+        setTimeout(function () {
+          const button = document.querySelector('.button');
+          button.classList.replace('button', 'button2');
+        }, 1000);
       }
       //check those squares to see if they all have the class of player-two
       if (
@@ -100,6 +104,10 @@ document.addEventListener('DOMContentLoaded', () => {
         square4.classList.contains('player-two')
       ) {
         result.innerHTML = 'Player Two Wins!';
+        setTimeout(function () {
+          const button = document.querySelector('.button');
+          button.classList.replace('button', 'button2');
+        }, 1000);
       }
     }
   }

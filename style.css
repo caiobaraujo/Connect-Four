@@ -1,9 +1,14 @@
+body {
+  color: white;
+}
+
 .grid {
   border: 1px solid;
   height: 120px;
   width: 140px;
   display: flex;
   flex-wrap: wrap;
+  background-color: white;
 }
 
 .grid div {
@@ -19,4 +24,20 @@
 .player-two {
   background-color: blue;
   border-radius: 10px;
+}
+
+.button {
+  margin-top: 30px;
+  margin-left: 8px;
+  display: none;
+}
+
+.button2 {
+  margin-top: 30px;
+  margin-left: 25px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
